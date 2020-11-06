@@ -28,7 +28,6 @@ var hashCmd = &cobra.Command{
 		for i := range b {
 			b[i] = letters[rand.Intn(len(letters))]
 		}
-
 		fmt.Printf("%s \n", string(b))
 	},
 }
